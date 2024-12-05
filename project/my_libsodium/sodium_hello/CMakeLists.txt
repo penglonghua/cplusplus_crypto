@@ -21,6 +21,7 @@ link_directories(${LIBSODIUM_LIBRARY_DIRS})
 add_executable(sodium_hello main.c
         src/rand.c
         src/util.c
+        src/chacha.c
 )
 
 
