@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "chacha.h"
 #include "rand.h"
 #include "util.h"
 
@@ -10,8 +11,10 @@ int main(void) {
 
     printf(" %s start %s \n", line, line);
 
-    rand_case1();
-
+    // rand_case1();
+    // chacha_case1();
+    // chacha_case2();
+    chacha_case3();
 
     printf(" %s  end  %s \n", line, line);
 
